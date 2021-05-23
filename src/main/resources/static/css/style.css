@@ -13,7 +13,7 @@ body {
     color: black;
     margin: 0;
     min-height: 100vh;
-    background: white url(https://source.unsplash.com/ZdiTUdJ3KBU) center center/cover no-repeat;
+    background: white url(https://source.unsplash.com/uXtq8xGUX5U) center center/cover no-repeat;
 }
 
 a {
@@ -41,6 +41,19 @@ a {
     justify-content: space-between;
     transition: box-shadow 0.2s, transform 0.2s;
 }
+.vizitka2 {
+    max-width:45em;
+    max-height: 35em;
+    border: 1px solid gray;
+    background-color: white;
+    margin: 1em;
+    padding: 1.5em;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
 
 .vizitka--nova {
     background-color: #FFFFFF66;
@@ -53,10 +66,6 @@ a:hover .vizitka {
     box-shadow: 10px 10px 10px black;
     transform: translate(-5px, -5px);
     transition: box-shadow 0.2s, transform 0.2s;
-}
-
-form.vizitka {
-    height: auto;
 }
 
 .jmeno {
@@ -78,7 +87,7 @@ form.vizitka {
 }
 
 .kontakty {
-    text-align: right;
+    text-align: left;
 }
 
 .detail {
@@ -110,25 +119,20 @@ form.vizitka {
     margin: 1em;
     box-shadow: 5px 5px 10px black;
 }
-
-.row {
-    margin-bottom: 1em;
-}
-
-.form-controls {
+.button{
+    font: 10pt 'Raleway', sans-serif;
+    margin: 1em;
+    padding: 1.5em;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
-label {
-    display: block;
-    margin-bottom: 0.5em;
-}
-
-input {
-    width: 100%;
-}
-
-#psc {
-    width: 10em;
+.return{
+    min-height: 10vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
 }
